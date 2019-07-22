@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DevelopController.h"
 #import "Masonry.h"
 #import "Model.h"
 #import "SelectViewController.h"
@@ -27,6 +28,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"delelop" style:(UIBarButtonItemStylePlain) target:self action:@selector(leftAction)];
     
     self.dataArray = [NSMutableArray array];
     Model *model = [[Model alloc]init];
@@ -66,6 +70,12 @@
     
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)leftAction{
+    
+    DevelopController *deve = [[DevelopController alloc]init];
+    [self.navigationController pushViewController:deve animated:YES];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

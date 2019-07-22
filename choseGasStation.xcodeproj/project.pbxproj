@@ -36,6 +36,7 @@
 		B3541F5B1CFA8F56000B2392 /* libEncryptionChinese.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3541F5A1CFA8F56000B2392 /* libEncryptionChinese.a */; };
 		B36642C41CF19431007516DC /* SelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36642C31CF19431007516DC /* SelectTableView.m */; };
 		B36642C71CF19440007516DC /* SelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36642C61CF19440007516DC /* SelectTableViewCell.m */; };
+		B3BD3AED22E54B0B00528112 /* DevelopController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BD3AEC22E54B0B00528112 /* DevelopController.m */; };
 		B3EC1F551CF8414900340E1A /* JYC_encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC1F541CF8414900340E1A /* JYC_encryption.m */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,8 @@
 		B36642C31CF19431007516DC /* SelectTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableView.m; sourceTree = "<group>"; };
 		B36642C51CF19440007516DC /* SelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewCell.h; sourceTree = "<group>"; };
 		B36642C61CF19440007516DC /* SelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewCell.m; sourceTree = "<group>"; };
+		B3BD3AEB22E54B0B00528112 /* DevelopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevelopController.h; sourceTree = "<group>"; };
+		B3BD3AEC22E54B0B00528112 /* DevelopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevelopController.m; sourceTree = "<group>"; };
 		B3EC1F531CF8414900340E1A /* JYC_encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYC_encryption.h; sourceTree = "<group>"; };
 		B3EC1F541CF8414900340E1A /* JYC_encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYC_encryption.m; sourceTree = "<group>"; };
 		B3EC1F6F1CF8A8CD00340E1A /* libencryptionChinese.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libencryptionChinese.a; path = choseGasStation/libencryptionChinese/libencryptionChinese.a; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				B34A6A971CF1884E00D35C44 /* Singleton.h */,
 				B3EC1F531CF8414900340E1A /* JYC_encryption.h */,
 				B3EC1F541CF8414900340E1A /* JYC_encryption.m */,
+				B3BD3AEB22E54B0B00528112 /* DevelopController.h */,
+				B3BD3AEC22E54B0B00528112 /* DevelopController.m */,
 				B35304BE1CF94CD900C7BC57 /* key.plist */,
 				B35304BF1CF94CD900C7BC57 /* string.txt */,
 				B3541F581CFA8F56000B2392 /* libEncryptionChinese */,
@@ -439,6 +444,7 @@
 				B34A6A871CF17BBA00D35C44 /* Model.m in Sources */,
 				B34A6A361CF1783B00D35C44 /* AppDelegate.m in Sources */,
 				B34A6A841CF178F200D35C44 /* README.md in Sources */,
+				B3BD3AED22E54B0B00528112 /* DevelopController.m in Sources */,
 				B36642C71CF19440007516DC /* SelectTableViewCell.m in Sources */,
 				B3EC1F551CF8414900340E1A /* JYC_encryption.m in Sources */,
 				B34A6A821CF178F200D35C44 /* View+MASAdditions.m in Sources */,
