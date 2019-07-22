@@ -1,37 +1,26 @@
 //
-//  DevelopController.m
+//  DevelopTwoController.m
 //  choseGasStation
 //
 //  Created by 蒋永昌 on 2019/7/22.
 //  Copyright © 2019 蒋永昌. All rights reserved.
 //
 
-#import "DevelopController.h"
 #import "DevelopTwoController.h"
 
-@interface DevelopController ()
+@interface DevelopTwoController ()
 
 @end
 
-@implementation DevelopController
+@implementation DevelopTwoController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navigationItem.title = @"develop";
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    
-    
-    
-    // Do any additional setup after loading the view.
-}
+    self.navigationItem.title = @"two";
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-    DevelopTwoController *develop = [[DevelopTwoController alloc]init];
-    [self.navigationController pushViewController:develop animated:YES];
-    
+    self.view.backgroundColor = [UIColor cyanColor];
+
+    // Do any additional setup after loading the view.
 }
 
 /*

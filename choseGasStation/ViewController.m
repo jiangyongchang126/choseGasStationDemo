@@ -57,13 +57,13 @@
     
     EncryptionChinese *encryChinese = [[EncryptionChinese alloc]init];
     
-    NSString *str = @"北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔";
-    
-    NSLog(@"%@",str);
-
-    NSLog(@"加密后:%@",[encryChinese wendToEncryPtionWithString:str]);
-    
-    NSLog(@"解密后:%@",[encryChinese getStrFromEncryPtion]);
+//    NSString *str = @"北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔";
+//    
+//    NSLog(@"%@",str);
+//
+//    NSLog(@"加密后:%@",[encryChinese wendToEncryPtionWithString:str]);
+//    
+//    NSLog(@"解密后:%@",[encryChinese getStrFromEncryPtion]);
 //
     
     
