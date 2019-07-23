@@ -1,24 +1,23 @@
 //
-//  DevelopController.m
+//  DevelopThreeController.m
 //  choseGasStation
 //
-//  Created by 蒋永昌 on 2019/7/22.
+//  Created by 蒋永昌 on 2019/7/23.
 //  Copyright © 2019 蒋永昌. All rights reserved.
 //
 
-#import "DevelopController.h"
+#import "DevelopThreeController.h"
 
-@interface DevelopController ()
+@interface DevelopThreeController ()
 
 @end
 
-@implementation DevelopController
+@implementation DevelopThreeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 

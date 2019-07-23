@@ -7,6 +7,7 @@
 //
 
 #import "DevelopTwoController.h"
+#import "DevelopThreeController.h"
 
 @interface DevelopTwoController ()
 
@@ -21,6 +22,13 @@
     self.view.backgroundColor = [UIColor cyanColor];
 
     // Do any additional setup after loading the view.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    DevelopThreeController *de = [[DevelopThreeController alloc]init];
+    [self.navigationController pushViewController:de animated:YES];
+    
 }
 
 /*
