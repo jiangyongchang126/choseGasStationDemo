@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DevelopController.h"
+#import "MasterViewController.h"
 #import "Masonry.h"
 #import "Model.h"
 #import "SelectViewController.h"
@@ -67,7 +68,7 @@
 //
     
     
-    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"master" style:UIBarButtonItemStylePlain target:self action:@selector(rightAction)];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -91,6 +92,12 @@
     
     [self refushData];
 
+}
+
+- (void)rightAction{
+    
+    MasterViewController *mas = [[MasterViewController alloc]init];
+    [self.navigationController pushViewController:mas animated:YES];
 }
 
 -(void)shouldPushToSelectViewController{
