@@ -34,8 +34,11 @@
 		B35304C01CF94CD900C7BC57 /* key.plist in Resources */ = {isa = PBXBuildFile; fileRef = B35304BE1CF94CD900C7BC57 /* key.plist */; };
 		B35304C11CF94CD900C7BC57 /* string.txt in Resources */ = {isa = PBXBuildFile; fileRef = B35304BF1CF94CD900C7BC57 /* string.txt */; };
 		B3541F5B1CFA8F56000B2392 /* libEncryptionChinese.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3541F5A1CFA8F56000B2392 /* libEncryptionChinese.a */; };
+		B35A758622E6F538005C5153 /* DevelopThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35A758522E6F538005C5153 /* DevelopThreeController.m */; };
 		B36642C41CF19431007516DC /* SelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36642C31CF19431007516DC /* SelectTableView.m */; };
 		B36642C71CF19440007516DC /* SelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36642C61CF19440007516DC /* SelectTableViewCell.m */; };
+		B3BD3AED22E54B0B00528112 /* DevelopController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BD3AEC22E54B0B00528112 /* DevelopController.m */; };
+		B3BD3AF022E5548100528112 /* DevelopTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BD3AEF22E5548100528112 /* DevelopTwoController.m */; };
 		B3BD3AF322E561BA00528112 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BD3AF222E561BA00528112 /* MasterViewController.m */; };
 		B3EC1F551CF8414900340E1A /* JYC_encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC1F541CF8414900340E1A /* JYC_encryption.m */; };
 /* End PBXBuildFile section */
@@ -107,10 +110,16 @@
 		B35304BF1CF94CD900C7BC57 /* string.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string.txt; sourceTree = "<group>"; };
 		B3541F591CFA8F56000B2392 /* EncryptionChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionChinese.h; sourceTree = "<group>"; };
 		B3541F5A1CFA8F56000B2392 /* libEncryptionChinese.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEncryptionChinese.a; sourceTree = "<group>"; };
+		B35A758422E6F538005C5153 /* DevelopThreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevelopThreeController.h; sourceTree = "<group>"; };
+		B35A758522E6F538005C5153 /* DevelopThreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevelopThreeController.m; sourceTree = "<group>"; };
 		B36642C21CF19431007516DC /* SelectTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableView.h; sourceTree = "<group>"; };
 		B36642C31CF19431007516DC /* SelectTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableView.m; sourceTree = "<group>"; };
 		B36642C51CF19440007516DC /* SelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewCell.h; sourceTree = "<group>"; };
 		B36642C61CF19440007516DC /* SelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewCell.m; sourceTree = "<group>"; };
+		B3BD3AEB22E54B0B00528112 /* DevelopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevelopController.h; sourceTree = "<group>"; };
+		B3BD3AEC22E54B0B00528112 /* DevelopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevelopController.m; sourceTree = "<group>"; };
+		B3BD3AEE22E5548100528112 /* DevelopTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevelopTwoController.h; sourceTree = "<group>"; };
+		B3BD3AEF22E5548100528112 /* DevelopTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevelopTwoController.m; sourceTree = "<group>"; };
 		B3BD3AF122E561BA00528112 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		B3BD3AF222E561BA00528112 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		B3EC1F531CF8414900340E1A /* JYC_encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYC_encryption.h; sourceTree = "<group>"; };
@@ -189,6 +198,12 @@
 				B34A6A971CF1884E00D35C44 /* Singleton.h */,
 				B3EC1F531CF8414900340E1A /* JYC_encryption.h */,
 				B3EC1F541CF8414900340E1A /* JYC_encryption.m */,
+				B3BD3AEB22E54B0B00528112 /* DevelopController.h */,
+				B3BD3AEC22E54B0B00528112 /* DevelopController.m */,
+				B3BD3AEE22E5548100528112 /* DevelopTwoController.h */,
+				B3BD3AEF22E5548100528112 /* DevelopTwoController.m */,
+				B35A758422E6F538005C5153 /* DevelopThreeController.h */,
+				B35A758522E6F538005C5153 /* DevelopThreeController.m */,
 				B3BD3AF122E561BA00528112 /* MasterViewController.h */,
 				B3BD3AF222E561BA00528112 /* MasterViewController.m */,
 				B35304BE1CF94CD900C7BC57 /* key.plist */,
@@ -445,6 +460,7 @@
 				B34A6A361CF1783B00D35C44 /* AppDelegate.m in Sources */,
 				B3BD3AF322E561BA00528112 /* MasterViewController.m in Sources */,
 				B34A6A841CF178F200D35C44 /* README.md in Sources */,
+				B3BD3AED22E54B0B00528112 /* DevelopController.m in Sources */,
 				B36642C71CF19440007516DC /* SelectTableViewCell.m in Sources */,
 				B3EC1F551CF8414900340E1A /* JYC_encryption.m in Sources */,
 				B34A6A821CF178F200D35C44 /* View+MASAdditions.m in Sources */,
@@ -459,6 +475,8 @@
 				B34A6A7D1CF178F200D35C44 /* MASLayoutConstraint.m in Sources */,
 				B36642C41CF19431007516DC /* SelectTableView.m in Sources */,
 				B34A6A331CF1783B00D35C44 /* main.m in Sources */,
+				B35A758622E6F538005C5153 /* DevelopThreeController.m in Sources */,
+				B3BD3AF022E5548100528112 /* DevelopTwoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

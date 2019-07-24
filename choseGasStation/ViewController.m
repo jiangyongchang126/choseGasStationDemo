@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DevelopController.h"
 #import "MasterViewController.h"
 #import "Masonry.h"
 #import "Model.h"
@@ -28,6 +29,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"delelop" style:(UIBarButtonItemStylePlain) target:self action:@selector(leftAction)];
     
     self.dataArray = [NSMutableArray array];
     Model *model = [[Model alloc]init];
@@ -54,19 +58,25 @@
     
     EncryptionChinese *encryChinese = [[EncryptionChinese alloc]init];
     
-    NSString *str = @"北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔";
-    
-    NSLog(@"%@",str);
-
-    NSLog(@"加密后:%@",[encryChinese wendToEncryPtionWithString:str]);
-    
-    NSLog(@"解密后:%@",[encryChinese getStrFromEncryPtion]);
+//    NSString *str = @"北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔";
+//    
+//    NSLog(@"%@",str);
+//
+//    NSLog(@"加密后:%@",[encryChinese wendToEncryPtionWithString:str]);
+//    
+//    NSLog(@"解密后:%@",[encryChinese getStrFromEncryPtion]);
 //
     
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"master" style:UIBarButtonItemStylePlain target:self action:@selector(rightAction)];
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)leftAction{
+    
+    DevelopController *deve = [[DevelopController alloc]init];
+    [self.navigationController pushViewController:deve animated:YES];
 }
 
 -(void)viewDidAppear:(BOOL)animated{
